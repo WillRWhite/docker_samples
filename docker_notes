@@ -119,7 +119,24 @@ exit
 docker container rename  myubuntu18container2 ubuntu-18.04-c1
 
 
-
 # now connect to it again
 
 docker exec -it ubuntu-18.04-c1 bash
+
+
+Building Docker Images  
+----------------------
+
+Create a Dockerfile, then to build:
+
+docker build -t wrwdi/yocto-hardknott_karo-bsp:next  
+
+If you want an additional tak just repeat above with the different tag, then can delete tags not required in Docker Hub
+
+To push to Docker Hub:
+
+Easiest way is to use Docker Hub but need to figur out how to set up credentials to use bash etc:
+
+docker login -u wrwdi
+
+
