@@ -1,5 +1,5 @@
 
-Installing and maintaining Docker:
+**Installing and maintaining Docker**
 
 https://docs.docker.com/engine/install/ubuntu/#:~:text=Install%20from%20a%20package&text=Go%20to%20https%3A%2F%2Fdownload,version%20you%20want%20to%20install
 
@@ -7,32 +7,16 @@ There are several steps above to install the Docker Engine (not desktop), confir
 
 however this maybe all that is required:
 
-sudo apt-update
+`sudo apt-update`  
+`sudo apt install docker.io docker-compose -y`  
 
-sudo apt install docker.io docker-compose -y
+To set the current user to be a member of the Docker group  
 
+<https://docs.docker.com/engine/install/linux-postinstall>  
 
-
-To set the current user to be a member of the Docker group
-
-
-
-https://docs.docker.com/engine/install/linux-postinstall/
-
-
-
-
-
-References:
-
-https://docs.docker.com/engine/reference/commandline/docker/
-
-https://phoenixnap.com/kb/how-to-list-start-stop-docker-containers
-
-
-
-
-
+References:  
+<https://docs.docker.com/engine/reference/commandline/docker>  
+<https://phoenixnap.com/kb/how-to-list-start-stop-docker-containers>  
 
 
 # Get a docker image from docker hub eg:
